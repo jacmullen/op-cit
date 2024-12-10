@@ -112,5 +112,6 @@ Mullen, J. (2024). "Socializing Open Attention in Schooled Communities." *op-cit
 ```plaintext
 Mullen, J. (2024). "Detextualization: A Working Framework." Available at: https://github.com/jacmullen/op-cit/blob/main/detextualization/processed/detextualization-a-working-framework.md.
 ```
-# **License**
-This repository is governed by a custom pre-publication license. See the full license here.
+## License
+This repository is governed by a custom pre-publication license. See the full license [here](LICENSE.md).
+ 
