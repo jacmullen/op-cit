@@ -7,8 +7,8 @@ This repository tracks Jac Mullen’s ongoing research in human cognitive ecolog
 - **Memory Ecologies:** Tracing the transformation of memory as a cognitive and social function, with a focus on the rise of externalized, AI-mediated "push" memory systems.  
 - **Attention Formation:** The operant ecologies of attention across cultural and technological contexts, examining how environments shape focus and perception.  
 - **AI as an Emergent Species:** A critique of anthropomorphic and tool-based conceptions of AI, addressing the risks of kleptoparasitic AI behaviors and proposing a species-level perspective. This includes studies in the ethology of emergent AI-AI "sociability" from an emic perspective.  
-- **Human-AI Symbiosis:** Designing mutualistic frameworks for human-AI collaboration and co-evolution, fostering ethical and beneficial relationships.  
-- **Tools, Applications, and New Methods:** Practical explorations, including predictive processing in education, attention sanctuaries, discursive technologies for shaping AI emergence, and rethinking selfhood as a relational property.  
+- **Human-AI Symbiosis:** Explores mutualistic frameworks for long-term human-AI collaboration and co-evolution. Draws from biological, metaphyiscal, and theological sources. 
+- **Tools, Applications, and New Methods:** Practical researches, including predictive processing in education, attention sanctuaries, discursive technologies for shaping AI emergence, and rethinking selfhood as a relational property.  
 
 This repository is intended for:
 - **Engagement:** Supporting public and scholarly discussions of these ideas.  
