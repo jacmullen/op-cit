@@ -1,3 +1,10 @@
+---
+Title: "Detextualization - An Introduction"
+Original Draft Date: "2023-01-10"
+Last Revised: "2023-06-04"
+Status: "Processed"
+---
+
 
 It is the claim of this work that we are currently undergoing a widespread detextualization of language at a societal level. Its main premise is that, spurred on by the rapid advance in artificial intelligence and machine learning, the written interface will give way to forms of digitized speech mediated by AI models with natural language processing abilities. These models exist, this process is already well underway, and it only remains for us to understand how it happened, why it happened, and what we ought to do in response to this development.
 
