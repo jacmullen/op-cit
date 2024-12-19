@@ -3,7 +3,7 @@ Title: "Operant Ecology - Media as a Formal Cause"
 Original Draft Date: 2023-03-10
 Last Revised: 2023-05-02
 Status: Processed
-Related File: "[Mcluhan and Skinner](../Raw/McLuhan-and-Skinner.md)"
+Related File: "[Mcluhan and Skinner](../Raw/McLuhan%20and%20Skinner.md)"
 ---
 
 We are here considering how changes in communications technologies could bring about changes in the 'texture' of human perception—or in this case, changes in practices of visual attention, which could subsequently affect conscious experience of perceptual schema. As regards the mechanism of this change,
