@@ -3,7 +3,7 @@ Title: "McLuhan with Skinner - Toward an Operant Ecology"
 Original Draft Date: 2023-01-10
 Last Revised: 2023-04-24
 Status: Raw
-Related Files: [Operant Ecology of Mind](../Processed/operant-ecology-of-mind.md)
+Related Files: "[Operant Ecology of Mind](../Processed/operant-ecology-of-mind.md)"
 ---
 
 Notes to Self: 
