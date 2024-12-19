@@ -37,8 +37,3 @@ Detextualization, then, refers to a transition away from textualization at a soc
 Then, there are the larger structures—types of individuals, social identities, social distinctions—which the repertoires of behavior comprising reading and writing compel us to create. [etc.]
 
 Finally—and perhaps, most importantly—to the extent that it remains focused on textualization, the vast social machinery devoted to the universal acquisition of fluent literacy, which includes universal public secondary education, becomes increasingly disconnected from the realities of the society into whose ranks we would seek to induce our young.
-
-
-++
-
-Certain writing systems dictate more explicitly than others their verbalizations. All writing systems, however, dictate their own verbalizations. In other words: not all systems visualize speech; but all scripts can be verbalized as speech and describe the contents of a script. Consider an abstract mathematical formulation for set theory. The list of operators will be defined alphabetically in terms of their operations. These are names we give to the operators, and verbal descriptions of the operators, just as we would provide for any entities in our visual environments.
