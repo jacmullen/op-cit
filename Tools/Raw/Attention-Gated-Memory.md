@@ -1,9 +1,8 @@
-
 ---
 Title: "Attention-Gated Memory Architectures for Large Language Models"
 Created on: 2024-12-20
 Last Update: 2024-12-21
-Status: Active Draft (utterly unsourced, & missing all specifics) 
+Status: Active Draft (utterly unsourced, & missing most specifics) 
 ---
 
 
