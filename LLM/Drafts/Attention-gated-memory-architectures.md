@@ -27,6 +27,8 @@ The goal of this essay is to propose a novel memory architecture for Large Langu
 
 - Human memory is not a separate “external database”; storage and retrieval processes emerge from the same network that handles perception and cognition.
 - Contrasted with typical LLM solutions (vector databases, logs), which bolt memory on separately.
+  - Logs, embeddings, external vector stores: practical but not deeply integrated with the model’s own predictive mechanisms
+  - “Seamlessness” requires a memory that emerges from the same process that generates token predictions.
 
 ### 4) “Now Print” and Attention
 
@@ -37,8 +39,11 @@ The goal of this essay is to propose a novel memory architecture for Large Langu
 
 ### 1) Memory as the “Residue” of Prediction
 
-- In predictive coding frameworks, perception is largely a product of past experience, with true “memory” reflected in where prediction and reality diverge.
-- Translating that principle: an LLM’s memory could focus on the points where its internal distributions indicate surprise, uncertainty, or significant shifts.
+Within predictive coding frameworks, perception emerges as a generative process: the brain creates predictions about sensory inputs based on prior experience. These predictions undergo continuous comparison with incoming sensory data, with mismatches—prediction errors—driving updates to the internal model. In this context, memory takes on a novel character: it becomes the portion of the predicted state displaced by current input.
+
+This displacement mechanism is crucial. When sensory input conflicts with prediction, the mismatched portion doesn't vanish—it persists as an echo of the incorrect prediction, encoded as memory. This process is inherently selective: only significant mismatches, amplified by attention, become encoded as memorable events.
+
+This dynamic interplay between attention and memory shapes processing itself. Most predictions align seamlessly with inputs, remaining invisible in the background. Memory emerges precisely when prediction fails - when error forces the system to encode the mismatch.
 
 ### 2) Attention as Bottleneck and Filter
 
@@ -50,24 +55,28 @@ The goal of this essay is to propose a novel memory architecture for Large Langu
 - Instead of storing every interaction, the system should store only “residuals”: the minimal data necessary to reconstruct or recall significant experiences later.
 - This parallels the brain’s approach to memory, which is inherently selective and dynamic.
 
-## Part 3: From Concept to Application in LLM Architecture
+### 4) Natural Memory Triggers in LLM Processing
+LLMs naturally produce probability distributions at each token boundary. These distributions contain rich information about the model's internal state:
 
-### 1) Why Traditional Approaches Feel Bolted-On
-- Logs, embeddings, external vector stores: practical but not deeply integrated with the model’s own predictive mechanisms.
-- “Seamlessness” requires a memory that emerges from the same process that generates token predictions.
+- Expected tokens (highest probabilities)
+- Uncertainty level (entropy of distribution)
+- Alternative considerations (shape of distribution)
+- Surprise (divergence from typical patterns)
 
-### 2) Design Goals for an Integrated System
+These distributions offer natural triggers for memory formation. Significant moments emerge when:
+
+- Entropy suddenly drops (clarity after uncertainty)
+- Distribution flattens (maximum uncertainty)
+- High-probability predictions fail (surprise)
+- Distribution shape changes dramatically (context shift)
+
+### 5) Design Goals for an Integrated System
 
 - Lightweight: Avoid storing entire contexts or hidden states.
 - Self-Contained: Minimize reliance on large external databases.
 - Flexible: Adapt to new information, prunes or consolidates old “episodes” in a manner reminiscent of biological memory.
 - Salience-Driven: Memory triggers align with “surprise” signals (entropy changes, etc.).
 
-### 3) Example Mechanisms
-
-- Dynamic Memory Layers: Store a compressed representation of surprising states in a small “episodic cache.”
-- Delta-Focused: Track the difference between predicted vs. actual inputs, akin to the “residual” approach in neural architectures.
-- Consolidation: Periodically reinforce or prune stored episodes, similar to offline “replay” in the brain.
 
 ## Part 4: Probability Distributions as “Moments”
 
@@ -91,10 +100,6 @@ The goal of this essay is to propose a novel memory architecture for Large Langu
   - This ensures extremely lightweight “moment” storage with minimal duplication.
 
 ### 4) Retrieval by Statistical Similarity
-
-- During inference, the model produces a new distribution at each token boundary.
-- Compare (via KL divergence or other distance metrics) the new distribution to stored “moments.”
-- If a match is found, the model can re-inject that memory (e.g., by adjusting next-token probabilities or reintroducing a reference to that prior context).
 
 Rather than treating memory as static storage, this framework enables a dynamic form of recall through mathematical resonance. During processing, new probability distributions naturally emerge at each token boundary. These can be compared with stored signatures using
 
