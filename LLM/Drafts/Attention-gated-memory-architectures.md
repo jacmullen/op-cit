@@ -9,7 +9,7 @@ Purpose: Outline/overview of an ongoing essay
 
 # Attention-Gated Memory Architectures 
 
-The goal of this essay is to propose a novel memory architecture for Large Language Models (LLMs), drawing inspiration from neurobiology (particularly episodic memory) while remaining computationally lean. This outline captures how we can move beyond external, token-based memory add-ons toward a more biologically rooted, attention-gated approach—one that leverages the model’s own probability distributions to identify and store “significant moments.”
+The goal of this essay is to propose a novel memory architecture for Large Language Models (LLMs), drawing inspiration from neurobiology (particularly episodic memory) while remaining computationally lean. This outline captures how we can move beyond 'externalized' memory add-ons toward a more bio-functionalist-inspired, attention-gated approach—one that leverages the model’s own probability distributions to identify and store “significant moments.”
 
 ## Part 1: The Neurobiology of Episodic Memory
 
